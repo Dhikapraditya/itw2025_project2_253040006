@@ -1,0 +1,87 @@
+html,body{
+    overflow-x: hidden;
+}
+body { 
+    font-family: 'Montserrat', sans-serif; 
+    background-color: black; 
+    color: white; 
+}
+h1, h2, .navbar-brand { 
+    font-family: 'Oswald', sans-serif; 
+    text-transform: uppercase; 
+}
+.navbar { 
+    background: black; 
+    border-bottom: 1px solid gray; 
+}
+.hero-section { 
+    height: 100vh; 
+    background: url('/img/home/joey-banks-YApiWyp0lqo-unsplash.jpg') center/cover; 
+    display: flex; 
+    align-items: center; 
+}
+.section-padding { 
+    padding: 100px 0; 
+}
+.card { 
+    background: #1a1a1a; 
+    border: 1px solid #333; 
+    color: white; transition: 0.3s; 
+}
+.card:hover { 
+    border-color: red; 
+    transform: translateY(-30px); 
+}
+.gallery-img { 
+    object-fit: cover; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: 0.3s;
+    height: 250px; 
+}
+.gallery-img:hover { 
+    opacity: 0.7; 
+}
+
+.img-instagram{
+    background-image: url("../img/contactimg/instagram-1.png");
+}
+.img-instagram:hover{
+    background-image: url("../img/contactimg/instagram-3.png");
+}
+
+.img-wa{
+    background-image: url("../img/contactimg/whatsapp.png");
+}
+.img-wa:hover{
+    background-image: url("../img/contactimg/whatsapp-2.png");
+}
+
+.img-yt{
+    background-image: url("../img/contactimg/youtube-1.png");
+}
+.img-yt:hover{
+    background-image: url("../img/contactimg/youtube-2.png");
+}
+
+.img-git{
+    background-image: url("../img/contactimg/github.png");
+}
+.img-git:hover{
+    background-image: url("../img/contactimg/github-2.png");
+}
+
+
+.socmed-icons{
+    display: flex;
+    /* gap: 15px; */
+}
+
+.socmed-icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s ease-in-out;
+}
