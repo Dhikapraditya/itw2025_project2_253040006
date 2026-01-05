@@ -16,7 +16,7 @@ h1, h2, .navbar-brand {
 }
 .hero-section { 
     height: 100vh; 
-    background: url('/img/home/joey-banks-YApiWyp0lqo-unsplash.jpg') center/cover; 
+    background: url('img/home/joey-banks-YApiWyp0lqo-unsplash.jpg') center/cover; 
     display: flex; 
     align-items: center; 
 }
