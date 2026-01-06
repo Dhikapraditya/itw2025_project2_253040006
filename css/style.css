@@ -50,25 +50,11 @@ h1, h2, .navbar-brand {
     background-image: url("../img/contactimg/instagram-3.png");
 }
 
-.img-wa{
-    background-image: url("../img/contactimg/whatsapp.png");
-}
-.img-wa:hover{
-    background-image: url("../img/contactimg/whatsapp-2.png");
-}
-
 .img-yt{
     background-image: url("../img/contactimg/youtube-1.png");
 }
 .img-yt:hover{
     background-image: url("../img/contactimg/youtube-2.png");
-}
-
-.img-git{
-    background-image: url("../img/contactimg/github.png");
-}
-.img-git:hover{
-    background-image: url("../img/contactimg/github-2.png");
 }
 
 
