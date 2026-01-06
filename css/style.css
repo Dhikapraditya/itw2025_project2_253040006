@@ -25,7 +25,8 @@ h1, h2, .navbar-brand {
 .card { 
     background: #1a1a1a; 
     border: 1px solid #333; 
-    color: white; transition: 0.3s; 
+    color: white; 
+    transition: 0.3s; 
 }
 .card:hover { 
     border-color: red; 
